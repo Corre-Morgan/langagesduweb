@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="no-js" lang="fr">
+    <head>
+        <title>site web</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+        <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/tether.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+      <header>
+        <h1 id="titre">Site de recherche de fiche rfc</h1>
+
+        <nav>
+          <ul>
+            <li><a href="page.php?id=1" data-page="1" >page1</a></li>
+            <li><a href="page.php?id=2" data-page="2" >page2</a></li>
+            <li><a href="page.php?id=3" data-page="3" >page3</a></li>
+          </ul>
+        </nav>
+    </header>
+    <form>
+      <input id="searchBar" type="text" placeholder="Search..">
+      <input id="searchBarButton" type="submit" value="Valider" onclick="valider()">
+    </form>
+
+    <h2 id='titrePage'></h2>
+    <section id="content" aria-live="polite" aria-atomic="true" aria-relevant="all"></section>
+
+    <script src="js/init.js"></script>
+    </body>
+</html>
